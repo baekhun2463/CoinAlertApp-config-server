@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/baekhun2463/CoinAlertApp-config-server
+
+
+message: "이거 제대로 되고 있는거 맞냐?"
